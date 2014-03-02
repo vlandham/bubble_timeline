@@ -1,0 +1,26 @@
+h2. About
+
+D3 Example for creating a timeline of aggregated events as bubbles.
+
+h2. Usage
+
+h3. View built in example
+
+You can start up a local webserver by using python's simple server:
+
+<pre>
+python -m SimpleHTTPServer 3000
+</pre>
+
+
+or @thin@ in ruby
+
+<pre>
+thin start
+# might have to run 'bundle install' first
+</pre>
+
+Now go to "http://0.0.0.0:3000":http://0.0.0.0:3000/
+
+and you have a basic visualization
+
